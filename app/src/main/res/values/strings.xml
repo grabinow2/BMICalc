@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMICalc</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_text">Please Enter your Height and Weight</string>
+    <string name="height_label_text">Height (inches): </string>
+    <string name="weight_label_text">Weight (pounds): </string>
+    <string name="title_activity_results">Results</string>
+    <string name="BMI">BMI: </string>
+    <string name="BMI_Group">BMI Group: </string>
+</resources>

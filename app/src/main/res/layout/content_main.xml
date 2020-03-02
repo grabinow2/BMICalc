@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <!--Banner-->
+    <TextView
+        android:id="@+id/banner"
+        android:text="@string/banner_text"
+        style="@style/banner_text" />
+
+    <!--height text-->
+    <TextView
+        android:id="@+id/main_height_tv"
+        android:text="@string/height_label_text"
+        style="@style/standard_text" />
+
+    <!--height entry-->
+    <EditText
+        android:id="@+id/main_height_et"
+        style="@style/edit_text_style"
+        />
+
+    <!--weight text-->
+    <TextView
+        android:id="@+id/main_weight_tv"
+        android:text="@string/weight_label_text"
+        style="@style/standard_text" />
+
+    <!--weight entry-->
+    <EditText
+        android:id="@+id/main_weight_et"
+        style="@style/edit_text_style" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <!--margins-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+
+    <!--text sizes-->
+    <dimen name="standard_label_text">18sp</dimen>
+    <dimen name="banner_text_size">22sp</dimen>
+</resources>
